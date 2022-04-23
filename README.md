@@ -4,6 +4,9 @@
 ![GitHub-Mark-Light](https://res.cloudinary.com/hegga-landingpage/image/upload/v1649461823/Hegga_logo_1c_neysjv.svg#gh-light-mode-only)
 ![GitHub-Mark-Dark ](https://res.cloudinary.com/hegga-landingpage/image/upload/v1649441373/Hegga_logo_1a_be4cfd49b4.svg#gh-dark-mode-only)
 
+| Test with GitHub iamge-links|
+|:---:|
+|![GitHub-Mark-Light](./b.png#gh-light-mode-only)![GitHub-Mark-Dark ](./w.png#gh-dark-mode-only)|
 
 ## We work with:
 
