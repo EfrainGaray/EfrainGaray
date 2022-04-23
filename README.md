@@ -1,7 +1,7 @@
 # Hi, I'm Efrain Garay.
 ## Founder and developer of  Hegga software development company.
 
-![GitHub-Mark-Light](./Hegga_logo_1a_be4cfd49b4.svg#gh-light-mode-only)![GitHub-Mark-Dark ](./Hegga_logo_1c_neysjv.svg#gh-dark-mode-only)
+![GitHub-Mark-Light](./white_logo.svg#gh-light-mode-only)![GitHub-Mark-Dark ](./dark_logo.svg#gh-dark-mode-only)
 
 ## We work with:
 
