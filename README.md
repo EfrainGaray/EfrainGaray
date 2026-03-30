@@ -1,97 +1,58 @@
-# Hi, I'm Efrain Garay.
-## Founder and developer of  Hegga software development company.
+# Hi, I'm Efrain Garay
+## Independent Researcher · Software Engineer · Founder of Hegga
 
-![GitHub-Mark-Light](./white_logo.svg#gh-light-mode-only)![GitHub-Mark-Dark ](./dark_logo.svg#gh-dark-mode-only)
+![GitHub-Mark-Light](./white_logo.svg#gh-light-mode-only)![GitHub-Mark-Dark](./dark_logo.svg#gh-dark-mode-only)
 
-## We work with:
+---
 
-We are working In hegga a number of open source projects to fulfill your needs:
+## Research Projects
 
-- [Angular.io](https://angular.io) - HTML enhanced for web apps!
-- [Nestjs.com](https://nestjs.com) - A progressive Node.js framework for building efficient, reliable and scalable server-side applications.
-- [Flutter.dev](https://flutter.dev/) - Markdown parser done right. Fast and easy to extend.
-- [Svelte.dev](https://svelte.dev/) - Svelte is a radical new approach to building user interfaces.
-- [SprintBoot](https://spring.io/) - Spring makes programming Java quicker, easier, and safer for everybody.
-- [Github](https://github.com/) - GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### [Agatha](https://github.com/EfrainGaray/agatha) — Binary Transport via YouTube VP9 4K
 
+A system that encodes arbitrary binary files into 4K grayscale video frames (1 bit/pixel), uploads them to YouTube, and recovers the original data with 100% fidelity using BCH(t=16) error correction. YouTube's H.264/VP9 transcoding degrades the signal, but ECC corrects all introduced errors.
 
+- Validated at **300 MB** with SHA256-verified recovery at 30 fps and 60 fps
+- Two deployment channels: **VP9 4K Morton Full** (throughput) and **Color Carrier** modes (stealth)
+- Maximum-stealth operating point (C16): BER=0 embedded in real video, visually indistinguishable
+- Academic paper available at [agatha.efra.dev](https://agatha.efra.dev)
 
-## Stats Efrain Garay
- <div>
+**Stack:** Python · FFmpeg · BCH ECC · YouTube Data API v3 · Astro 5 SSR
+
+---
+
+### [NEXCOMP](https://github.com/EfrainGaray/nexcomp) — Adaptive Lossless Compressor
+
+Per-block codec selection compressor that outperforms bzip2 across standard benchmarks.
+
+| Corpus | NEXCOMP | bzip2 | gzip |
+|--------|---------|-------|------|
+| Calgary | 2.072 bpb | 2.109 bpb | 2.592 bpb |
+| Canterbury | 1.278 bpb | 1.545 bpb | 2.072 bpb |
+| Silesia | 2.022 bpb | 2.057 bpb | — |
+
+Decompression throughput ~50 MB/s (vs bzip2 ~17 MB/s).
+
+**Stack:** Rust
+
+---
+
+## Tech Stack
+
+We work with:
+
+- [Angular.io](https://angular.io) — HTML enhanced for web apps
+- [NestJS](https://nestjs.com) — Progressive Node.js framework
+- [Flutter](https://flutter.dev/) — Cross-platform mobile & desktop
+- [Svelte](https://svelte.dev/) — Radical new approach to UI
+- [Spring Boot](https://spring.io/) — Java application framework
+
+---
+
+## Stats
+
+<div>
   <a href="https://github.com/EfrainGaray">
-  
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EfrainGaray&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
   <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfrainGaray&layout=compact&langs_count=7&theme=dracula&include_all_commits=true&count_private=true"/>
+  </a>
 </div>
-
-
-Popular Repositories Public in GitHub
---------------------
-
-[nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm)
------------------------------------------------------------------------
-
-### TypeScript – Creator & Owner
-
-#### 2021
-
-This repository has 1 star and 1 fork. If you would like more information about this repository and my contributed code, please visit [the repo](https://github.com/EfrainGaray/nestjs-aws-sqs-npm) on GitHub.
-
-[angular-skeleton-cms](https://github.com/EfrainGaray/angular-skeleton-cms)
----------------------------------------------------------------------------
-
-### SCSS – Creator & Owner
-
-#### 2021 – 2022
-
-This repository has 0 stars and 0 forks. If you would like more information about this repository and my contributed code, please visit [the repo](https://github.com/EfrainGaray/angular-skeleton-cms) on GitHub.
-
-[angular-universal-landing](https://github.com/EfrainGaray/angular-universal-landing)
--------------------------------------------------------------------------------------
-
-### HTML – Creator & Owner
-
-#### 2021
-
-This repository has 0 stars and 0 forks. If you would like more information about this repository and my contributed code, please visit [the repo](https://github.com/EfrainGaray/angular-universal-landing) on GitHub.
-
-[backend-express-node](https://github.com/EfrainGaray/backend-express-node)
----------------------------------------------------------------------------
-
-### JavaScript – Creator & Owner
-
-#### 2020 – 2022
-
-This repository has 0 stars and 0 forks. If you would like more information about this repository and my contributed code, please visit [the repo](https://github.com/EfrainGaray/backend-express-node) on GitHub.
-
-[dotfiles](https://github.com/EfrainGaray/dotfiles)
----------------------------------------------------
-
-### Vim script – Creator & Owner
-
-#### 2021
-
-This repository has 0 stars and 0 forks. If you would like more information about this repository and my contributed code, please visit [the repo](https://github.com/EfrainGaray/dotfiles) on GitHub.
-
-Contributions
--------------
-
-[EfrainGaray/spring-modyo-pokedex-main](https://github.com/EfrainGaray/spring-modyo-pokedex-main)
--------------------------------------------------------------------------------------------------
-
-EfrainGaray has contributed for [EfrainGaray/spring-modyo-pokedex-main](https://github.com/EfrainGaray/spring-modyo-pokedex-main) with [5 commit(s)](https://github.com/EfrainGaray/spring-modyo-pokedex-main/commits?author=EfrainGaray)
-
-[EfrainGaray/nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm)
------------------------------------------------------------------------------------
-
-EfrainGaray has contributed for [EfrainGaray/nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm) with [5 commit(s)](https://github.com/EfrainGaray/nestjs-aws-sqs-npm/commits?author=EfrainGaray)
-
-[EfrainGaray/angular-skeleton-cms](https://github.com/EfrainGaray/angular-skeleton-cms)
----------------------------------------------------------------------------------------
-
-EfrainGaray has contributed for [EfrainGaray/angular-skeleton-cms](https://github.com/EfrainGaray/angular-skeleton-cms) with [2 commit(s)](https://github.com/EfrainGaray/angular-skeleton-cms/commits?author=EfrainGaray)
-
-[EfrainGaray/nestjs-backend](https://github.com/EfrainGaray/nestjs-backend)
----------------------------------------------------------------------------
-
-EfrainGaray has contributed for [EfrainGaray/nestjs-backend](https://github.com/EfrainGaray/nestjs-backend) with [2 commit(s)](https://github.com/EfrainGaray/nestjs-backend/commits?author=EfrainGaray)
