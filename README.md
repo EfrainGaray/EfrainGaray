@@ -88,27 +88,6 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 ---
 
-## Trophies
-
-<div align="center">
-
-[![trophy](https://github-profile-trophy.vercel.app/?username=EfrainGaray&theme=dracula&no-bg=true&no-frame=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
-## Pinned Projects
-
-<div align="center">
-
-[![Agatha](https://github-readme-stats.vercel.app/api/pin/?username=EfrainGaray&repo=agatha&theme=dracula&hide_border=true&bg_color=0d1117)](https://github.com/EfrainGaray/agatha)
-[![NEXCOMP](https://github-readme-stats.vercel.app/api/pin/?username=EfrainGaray&repo=nexcomp&theme=dracula&hide_border=true&bg_color=0d1117)](https://github.com/EfrainGaray/nexcomp)
-
-</div>
-
----
-
 <div align="center">
   <sub>Founder · <a href="https://hegga.cl">Hegga</a> &nbsp;·&nbsp; Research · <a href="https://agatha.hegga.cl">Agatha</a></sub>
 </div>
