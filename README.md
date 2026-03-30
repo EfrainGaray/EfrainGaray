@@ -1,58 +1,114 @@
-# Hi, I'm Efrain Garay
-## Independent Researcher · Software Engineer · Founder of Hegga
+<div align="center">
 
-![GitHub-Mark-Light](./white_logo.svg#gh-light-mode-only)![GitHub-Mark-Dark](./dark_logo.svg#gh-dark-mode-only)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=700&lines=Efrain+Garay+Antillanca;Solutions+Architect+%26+Researcher;Binary+Transport+over+YouTube+VP9;Adaptive+Lossless+Compression)](https://git.io/typing-svg)
+
+![Profile views](https://komarev.com/ghpvc/?username=EfrainGaray&style=for-the-badge&color=BD93F9&label=PROFILE+VIEWS)
+
+</div>
 
 ---
 
 ## Research Projects
 
-### [Agatha](https://github.com/EfrainGaray/agatha) — Binary Transport via YouTube VP9 4K
+<table>
+<tr>
+<td width="50%" valign="top">
 
-A system that encodes arbitrary binary files into 4K grayscale video frames (1 bit/pixel), uploads them to YouTube, and recovers the original data with 100% fidelity using BCH(t=16) error correction. YouTube's H.264/VP9 transcoding degrades the signal, but ECC corrects all introduced errors.
+### [Agatha](https://github.com/EfrainGaray/agatha) &nbsp;[![site](https://img.shields.io/badge/agatha.hegga.cl-BD93F9?style=flat-square&logo=astro&logoColor=white)](https://agatha.hegga.cl)
 
-- Validated at **300 MB** with SHA256-verified recovery at 30 fps and 60 fps
-- Two deployment channels: **VP9 4K Morton Full** (throughput) and **Color Carrier** modes (stealth)
-- Maximum-stealth operating point (C16): BER=0 embedded in real video, visually indistinguishable
-- Academic paper available at [agatha.efra.dev](https://agatha.efra.dev)
+Binary data transport via YouTube VP9 4K. Encodes arbitrary files into grayscale video frames (1 bit/pixel), uploads to YouTube, and recovers with SHA256-verified fidelity using BCH(t=16) error correction.
 
-**Stack:** Python · FFmpeg · BCH ECC · YouTube Data API v3 · Astro 5 SSR
+**Key results:**
+- ✅ 300 MB recovered — SHA256 verified
+- ✅ 30 fps & 60 fps validated end-to-end
+- ✅ BER = 0 stealth channel (C16 mode)
+- ✅ Academic paper published
 
----
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white)
+![YouTube API](https://img.shields.io/badge/YouTube_API-FF0000?style=flat-square&logo=youtube&logoColor=white)
 
-### [NEXCOMP](https://github.com/EfrainGaray/nexcomp) — Adaptive Lossless Compressor
+</td>
+<td width="50%" valign="top">
 
-Per-block codec selection compressor that outperforms bzip2 across standard benchmarks.
+### [NEXCOMP](https://github.com/EfrainGaray/nexcomp)
 
-| Corpus | NEXCOMP | bzip2 | gzip |
-|--------|---------|-------|------|
-| Calgary | 2.072 bpb | 2.109 bpb | 2.592 bpb |
-| Canterbury | 1.278 bpb | 1.545 bpb | 2.072 bpb |
-| Silesia | 2.022 bpb | 2.057 bpb | — |
+Adaptive lossless compressor with per-block codec selection. Outperforms bzip2 across standard benchmarks with 3× faster decompression.
 
-Decompression throughput ~50 MB/s (vs bzip2 ~17 MB/s).
+| Corpus | NEXCOMP | bzip2 |
+|--------|---------|-------|
+| Calgary | **2.072** bpb | 2.109 bpb |
+| Canterbury | **1.278** bpb | 1.545 bpb |
+| Silesia | **2.022** bpb | 2.057 bpb |
 
-**Stack:** Rust
+Decompression: ~50 MB/s vs bzip2 ~17 MB/s
+
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
 ## Tech Stack
 
-We work with:
+<div align="center">
 
-- [Angular.io](https://angular.io) — HTML enhanced for web apps
-- [NestJS](https://nestjs.com) — Progressive Node.js framework
-- [Flutter](https://flutter.dev/) — Cross-platform mobile & desktop
-- [Svelte](https://svelte.dev/) — Radical new approach to UI
-- [Spring Boot](https://spring.io/) — Java application framework
+[![Skills](https://skillicons.dev/icons?i=python,rust,ts,nodejs,nestjs,angular,svelte,flutter,docker,postgres,redis,linux&theme=dark&perline=12)](https://skillicons.dev)
+
+</div>
 
 ---
 
-## Stats
+## GitHub Stats
 
-<div>
-  <a href="https://github.com/EfrainGaray">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=EfrainGaray&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
-  <img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfrainGaray&layout=compact&langs_count=7&theme=dracula&include_all_commits=true&count_private=true"/>
-  </a>
+<div align="center">
+
+<img height="170em" src="https://github-readme-stats.vercel.app/api?username=EfrainGaray&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
+<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfrainGaray&layout=compact&langs_count=7&theme=dracula&hide_border=true&bg_color=0d1117"/>
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=EfrainGaray&theme=dracula&hide_border=true&background=0d1117)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+## Activity
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=EfrainGaray&theme=dracula&bg_color=0d1117&hide_border=true&area=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+
+</div>
+
+---
+
+## Trophies
+
+<div align="center">
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=EfrainGaray&theme=dracula&no-bg=true&no-frame=true&column=7&margin-w=8)](https://github.com/ryo-ma/github-profile-trophy)
+
+</div>
+
+---
+
+## Pinned Projects
+
+<div align="center">
+
+[![Agatha](https://github-readme-stats.vercel.app/api/pin/?username=EfrainGaray&repo=agatha&theme=dracula&hide_border=true&bg_color=0d1117)](https://github.com/EfrainGaray/agatha)
+[![NEXCOMP](https://github-readme-stats.vercel.app/api/pin/?username=EfrainGaray&repo=nexcomp&theme=dracula&hide_border=true&bg_color=0d1117)](https://github.com/EfrainGaray/nexcomp)
+
+</div>
+
+---
+
+<div align="center">
+  <sub>Founder · <a href="https://hegga.cl">Hegga</a> &nbsp;·&nbsp; Research · <a href="https://agatha.hegga.cl">Agatha</a></sub>
 </div>
