@@ -1,14 +1,19 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=700&lines=Efrain+Garay+Antillanca;Solutions+Architect+%26+Researcher;Binary+Transport+over+YouTube+VP9;Adaptive+Lossless+Compression)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=700&lines=Efrain+Garay+Antillanca;Solutions+Architect+%26+Researcher;Binary+Transport+over+YouTube+VP9;Adaptive+Lossless+Compression)](https://git.io/typing-svg)
 
-![Profile views](https://komarev.com/ghpvc/?username=EfrainGaray&style=for-the-badge&color=BD93F9&label=PROFILE+VIEWS)
+<br/>
+
+![Followers](https://img.shields.io/github/followers/EfrainGaray?style=for-the-badge&color=BD93F9&labelColor=1a1a2e&label=FOLLOWERS)
+![Repos](https://img.shields.io/badge/PUBLIC%20REPOS-56-BD93F9?style=for-the-badge&labelColor=1a1a2e)
+![Since](https://img.shields.io/badge/ON%20GITHUB%20SINCE-2013-BD93F9?style=for-the-badge&labelColor=1a1a2e)
+![Profile views](https://komarev.com/ghpvc/?username=EfrainGaray&style=for-the-badge&color=BD93F9&label=PROFILE+VIEWS&abbreviated=true)
 
 </div>
 
 ---
 
-## Research Projects
+## 🔬 Research Projects
 
 <table>
 <tr>
@@ -51,7 +56,19 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 ---
 
-## Tech Stack
+## 📦 Notable Open Source
+
+### [nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm) &nbsp;![Stars](https://img.shields.io/github/stars/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=BD93F9) ![Forks](https://img.shields.io/github/forks/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=BD93F9)
+
+NestJS module for AWS SQS — producer/consumer pattern, auto-ack, DLQ support. Production-tested.
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
+![AWS SQS](https://img.shields.io/badge/AWS_SQS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+
+---
+
+## 🛠 Tech Stack
 
 <div align="center">
 
@@ -61,12 +78,13 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 ---
 
-## GitHub Stats
+## 📊 GitHub Stats
 
 <div align="center">
 
-<img height="170em" src="https://github-readme-stats.vercel.app/api?username=EfrainGaray&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117"/>
-<img height="170em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EfrainGaray&layout=compact&langs_count=7&theme=dracula&hide_border=true&bg_color=0d1117"/>
+![stats](https://github-readme-stats.vercel.app/api?username=EfrainGaray&show_icons=true&theme=dracula&include_all_commits=true&count_private=true&hide_border=true&bg_color=0d1117)
+&nbsp;
+![langs](https://github-readme-stats.vercel.app/api/top-langs/?username=EfrainGaray&layout=compact&langs_count=7&theme=dracula&hide_border=true&bg_color=0d1117)
 
 </div>
 
@@ -78,7 +96,7 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 ---
 
-## Activity
+## 📈 Activity
 
 <div align="center">
 
