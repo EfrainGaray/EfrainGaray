@@ -60,6 +60,31 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 <table>
 <tr>
+<td width="100%" valign="top">
+
+### [ragcore](https://github.com/EfrainGaray/ragcore) &nbsp;![2026](https://img.shields.io/badge/2026-BD93F9?style=flat-square)
+
+Pure RAG-as-a-service — no LLM, no opinions. Any AI (Claude, GPT-4, Llama, custom agents) queries ragcore to get grounded context from your documents via MCP or the OpenAI-compatible API. Pluggable embedding and reranker backends.
+
+**Key features:**
+- MCP server (SSE) + OpenAI-compatible REST API — integrates with Claude Code, Cursor, LangChain, any SDK
+- Swappable embedders: local sentence-transformers or any `/v1/embeddings` endpoint (HuggingFace, NVIDIA NIM, OpenAI, Ollama…)
+- Swappable rerankers: local CrossEncoder or remote `/v1/rerank` (Cohere, Jina AI, Voyage AI)
+- LRU cache (300s TTL) · rate limiting (60 req/min) · namespaces · observability headers
+- 75 tests, zero ML downloads required — runs in ~2.5s
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-BD93F9?style=flat-square)
+![ChromaDB](https://img.shields.io/badge/ChromaDB-FF6B35?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
+
+<table>
+<tr>
 <td width="50%" valign="top">
 
 ### [python-fastapi-IA-rag-generator](https://github.com/EfrainGaray/python-fastapi-IA-rag-generator) &nbsp;![2024](https://img.shields.io/badge/2024-6272a4?style=flat-square)
