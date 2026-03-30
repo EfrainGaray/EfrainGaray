@@ -13,7 +13,7 @@
 
 ---
 
-## 🔬 Research Projects
+## 🔬 Research Projects &nbsp;![2025–2026](https://img.shields.io/badge/2025–2026-BD93F9?style=flat-square)
 
 <table>
 <tr>
@@ -58,13 +58,33 @@ Decompression: ~50 MB/s vs bzip2 ~17 MB/s
 
 ## 📦 Notable Open Source
 
-### [nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm) &nbsp;![Stars](https://img.shields.io/github/stars/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=BD93F9) ![Forks](https://img.shields.io/github/forks/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=BD93F9)
+<table>
+<tr>
+<td width="50%" valign="top">
 
-NestJS module for AWS SQS — producer/consumer pattern, auto-ack, DLQ support. Production-tested.
+### [python-fastapi-IA-rag-generator](https://github.com/EfrainGaray/python-fastapi-IA-rag-generator) &nbsp;![2024](https://img.shields.io/badge/2024-6272a4?style=flat-square)
+
+FastAPI multi-model RAG server with LangChain, vector store, and multi-backend AI generation. Supports swappable LLM backends and retrieval-augmented pipelines.
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white)
+![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+<td width="50%" valign="top">
+
+### [nestjs-aws-sqs-npm](https://github.com/EfrainGaray/nestjs-aws-sqs-npm) &nbsp;![2021](https://img.shields.io/badge/2021-6272a4?style=flat-square) &nbsp;![Stars](https://img.shields.io/github/stars/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=6272a4) ![Forks](https://img.shields.io/github/forks/EfrainGaray/nestjs-aws-sqs-npm?style=flat-square&color=6272a4)
+
+NestJS module for AWS SQS — producer/consumer pattern, auto-ack, DLQ support. Production-tested since 2021.
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![NestJS](https://img.shields.io/badge/NestJS-E0234E?style=flat-square&logo=nestjs&logoColor=white)
 ![AWS SQS](https://img.shields.io/badge/AWS_SQS-FF9900?style=flat-square&logo=amazon-aws&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 ---
 
