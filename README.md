@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=700&lines=Efrain+Garay+Antillanca;Solutions+Architect+%26+Researcher;Binary+Transport+over+YouTube+VP9;Adaptive+Lossless+Compression)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=BD93F9&center=true&vCenter=true&width=700&lines=Efrain+Garay+Antillanca;Solutions+Architect+%26+Researcher;Binary+Transport+over+YouTube+VP9;Adaptive+Lossless+Compression;Chrome+JA4+Fingerprint+via+BoringSSL)](https://git.io/typing-svg)
 
 <br/>
 
@@ -14,6 +14,31 @@
 ---
 
 ## 🔬 Research Projects &nbsp;![2025–2026](https://img.shields.io/badge/2025–2026-BD93F9?style=flat-square)
+
+<table>
+<tr>
+<td width="100%" valign="top">
+
+### [PhantomRelay](https://github.com/EfrainGaray/phantomrelay) &nbsp;![2026](https://img.shields.io/badge/2026-BD93F9?style=flat-square)
+
+World-class browser relay scraper that defeats Cloudflare, DataDome, and Imperva at the TLS layer. Uses Chrome's own **BoringSSL** (via Rust native addon) to produce a JA4 fingerprint identical to real Chrome — something no Node.js scraper can do. Auto-escalates across 4 evasion modes, ages Chrome profiles with real SQLite history, and exposes a native MCP server so Claude can scrape directly.
+
+**Key results:**
+- ✅ JA4: `t13d1514h2_8daaf6152771_827b515c4f52` — verified live vs Chrome 124
+- ✅ HTTP/2 SETTINGS exact Chrome values (headerTableSize=65536, windowSize=6291456)
+- ✅ 11 JS stealth patches via single CDP IIFE — `navigator.webdriver → undefined`
+- ✅ Profile aging: direct SQLite writes to Chrome History (6-month fake personas)
+- ✅ 564 tests · TypeScript strict · MIT
+
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![MCP](https://img.shields.io/badge/MCP-BD93F9?style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+
+</td>
+</tr>
+</table>
 
 <table>
 <tr>
