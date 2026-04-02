@@ -5,7 +5,7 @@
 <br/>
 
 ![Followers](https://img.shields.io/github/followers/EfrainGaray?style=for-the-badge&color=BD93F9&labelColor=1a1a2e&label=FOLLOWERS)
-![Repos](https://img.shields.io/badge/PUBLIC%20REPOS-56-BD93F9?style=for-the-badge&labelColor=1a1a2e)
+![Repos](https://img.shields.io/badge/PUBLIC%20REPOS-58-BD93F9?style=for-the-badge&labelColor=1a1a2e)
 ![Since](https://img.shields.io/badge/ON%20GITHUB%20SINCE-2013-BD93F9?style=for-the-badge&labelColor=1a1a2e)
 ![Profile views](https://komarev.com/ghpvc/?username=EfrainGaray&style=for-the-badge&color=BD93F9&label=PROFILE+VIEWS&abbreviated=true)
 
@@ -21,18 +21,28 @@
 
 ### [PhantomRelay](https://github.com/EfrainGaray/phantomrelay) &nbsp;![2026](https://img.shields.io/badge/2026-BD93F9?style=flat-square)
 
-World-class browser relay scraper that defeats Cloudflare, DataDome, and Imperva at the TLS layer. Uses Chrome's own **BoringSSL** (via Rust native addon) to produce a JA4 fingerprint identical to real Chrome — something no Node.js scraper can do. Auto-escalates across 4 evasion modes, ages Chrome profiles with real SQLite history, and exposes a native MCP server so Claude can scrape directly.
+Production-grade stealth browser relay that defeats Cloudflare, DataDome, and PerimeterX at the TLS layer. Uses Chrome's own **BoringSSL** (via Rust native addon) to produce a JA4 fingerprint identical to real Chrome. Decomposed into **5 focused microservices** with ISolver CAPTCHA strategy pattern, Redis distributed rate limiting, EventEmitter-based proxy health monitoring, and Docker remote Chrome support.
+
+**Architecture (Phase 11 — hardened):**
+- 5-service decomposition: BlockDetector · ProxyController · PageActionExecutor · CaptchaOrchestrator · ChromeSessionManager
+- ISolver Strategy pattern: pluggable CAPTCHA solvers (reCAPTCHA, Turnstile, DataDome, PerimeterX)
+- Redis distributed rate limiter with per-endpoint granularity (scrape: 10/min, session: 30/min)
+- EventEmitter on HealthTracker/ProxyPool (degraded/recovered/banned/exhausted events)
+- Interface segregation: SessionRef · ProfileRef · ProxyRef
+- Timing-safe auth, SSRF protection, WebSocket CDP auth
 
 **Key results:**
 - ✅ JA4: `t13d1514h2_8daaf6152771_827b515c4f52` — verified live vs Chrome 124
 - ✅ HTTP/2 SETTINGS exact Chrome values (headerTableSize=65536, windowSize=6291456)
-- ✅ 11 JS stealth patches via single CDP IIFE — `navigator.webdriver → undefined`
+- ✅ 13 JS stealth patches via single CDP IIFE — `navigator.webdriver → undefined`
 - ✅ Profile aging: direct SQLite writes to Chrome History (6-month fake personas)
-- ✅ 564 tests · TypeScript strict · MIT
+- ✅ bot.sannysoft.com stealth score: 31/31 (100%)
+- ✅ 732 tests (25 integration, 57 service, 8 error-path) · TypeScript strict · MIT
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![MCP](https://img.shields.io/badge/MCP-BD93F9?style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 
